@@ -38,7 +38,6 @@ void setup()
   radio.stopListening(); //start the radio Transmitter 
 
   pinMode(SWITCH_PIN,INPUT_PULLUP);
-  pinMode(BUZZER,INPUT);
   pinMode(HEADLIGHTS,INPUT);
   data.xAxisValue = MAPPED_VALUE_CENTER; // Center
   data.yAxisValue = MAPPED_VALUE_CENTER; // Center
